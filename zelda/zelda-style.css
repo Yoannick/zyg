@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image:url(OIP.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #025811;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #00806f;
+}
+
+.title {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-content {
+    background-color: #00000070;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 251, 251, 0.897);
+    margin-bottom: 20px;
+}
+
+.main-content h2, .main-content h3 {
+    color: #025811;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    color: #fffdfd;
+}
+
+.main-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.main-content ul li {
+    margin-bottom: 10px;
+}
+
+.vid {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(20, 18, 18, 0.1);
+}
+
+.img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+    margin: 20px 0;
+}
+
+.details summary {
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #025811;
+}
+
+.details p {
+    margin: 10px 0;
+}
+
+.details audio {
+    display: block;
+    margin: 10px 0;
+}
+
+.details img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #025811;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #00806f;
+    margin-top: auto;
+}
+.boutton {
+    display: flex;
+    justify-content: center;
+    background-color: #025811;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #00806f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.boutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.boutton button {
+    color: #fff;
+    background-color: rgb(5, 96, 172);
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #00806f;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boutton button:hover {
+    background-color: #00806f;
+    color: rgb(5, 96, 172);
+}
